@@ -9,6 +9,7 @@ public class Anagrams {
         List list = new ArrayList();
         Stack test = new Stack();
         Set set = new HashSet();
+        Map map = new Hashtable();
 
 
 //
@@ -53,4 +54,10 @@ public class Anagrams {
         }
 
     }
+
+//    public static boolean areAnagrams2(String s1, String s2) {
+//
+//
+//
+//    }
 }

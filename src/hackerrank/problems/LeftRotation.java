@@ -1,4 +1,6 @@
-package hackerrank;
+package hackerrank.problems;
+
+import hackerrank.Helper;
 
 public class LeftRotation {
 

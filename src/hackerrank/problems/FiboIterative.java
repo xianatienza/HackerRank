@@ -1,4 +1,4 @@
-package hackerrank;
+package hackerrank.problems;
 
 public class FiboIterative {
 

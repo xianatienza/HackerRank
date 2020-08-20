@@ -1,6 +1,4 @@
-package hackerrank;
-
-import java.util.List;
+package hackerrank.problems;
 
 public class CoinCounter {
 

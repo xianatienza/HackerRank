@@ -1,4 +1,4 @@
-package hackerrank.sorting;
+package hackerrank.datastructures;
 
 import java.util.Comparator;
 import java.util.PriorityQueue;
@@ -18,8 +18,8 @@ public class QueuePractice {
     }
 
     public static void main(String[] args) {
-        tryPriorityQueue();
-
+        //tryPriorityQueue();
+        tryBlockingQueue();
 
     }
 
@@ -73,11 +73,9 @@ public class QueuePractice {
 
         Thread t2 = new Thread(() -> {
             while (true) {
-                try {
-                    q.take();
-                } catch (InterruptedException e) {
-                    e.printStackTrace();
-                }
+
+                q.poll();
+
                 System.out.println("T2 Removed from queue");
                 try {
                     Thread.sleep(5000);

@@ -1,4 +1,4 @@
-package hackerrank;
+package hackerrank.problems;
 
 /**\
  * Count the biggest numbers in the array
