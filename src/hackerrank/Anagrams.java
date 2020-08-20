@@ -9,7 +9,7 @@ public class Anagrams {
         List list = new ArrayList();
         Stack test = new Stack();
         Set set = new HashSet();
-
+            //asdasd
 
 //
 //        Scanner sc = new Scanner(System.in);
